@@ -16,6 +16,7 @@
 		E543DC8D1CCEEC200038FB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E543DC8B1CCEEC200038FB31 /* LaunchScreen.storyboard */; };
 		E543DC981CCEEC200038FB31 /* tempTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E543DC971CCEEC200038FB31 /* tempTests.m */; };
 		E543DCA31CCEEC200038FB31 /* tempUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E543DCA21CCEEC200038FB31 /* tempUITests.m */; };
+		E545D5391CD0571B001D767C /* HTMain.m in Sources */ = {isa = PBXBuildFile; fileRef = E545D5381CD0571B001D767C /* HTMain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E543DC9E1CCEEC200038FB31 /* tempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E543DCA21CCEEC200038FB31 /* tempUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tempUITests.m; sourceTree = "<group>"; };
 		E543DCA41CCEEC200038FB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E545D5371CD0571B001D767C /* HTMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMain.h; sourceTree = "<group>"; };
+		E545D5381CD0571B001D767C /* HTMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				E543DC8E1CCEEC200038FB31 /* Info.plist */,
 				E543DC861CCEEC200038FB31 /* temp.xcdatamodeld */,
 				E543DC7A1CCEEC200038FB31 /* Supporting Files */,
+				E545D5371CD0571B001D767C /* HTMain.h */,
+				E545D5381CD0571B001D767C /* HTMain.m */,
 			);
 			path = temp;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E543DC821CCEEC200038FB31 /* ViewController.m in Sources */,
+				E545D5391CD0571B001D767C /* HTMain.m in Sources */,
 				E543DC7F1CCEEC200038FB31 /* AppDelegate.m in Sources */,
 				E543DC7C1CCEEC200038FB31 /* main.m in Sources */,
 				E543DC881CCEEC200038FB31 /* temp.xcdatamodeld in Sources */,
@@ -500,6 +506,7 @@
 				E543DCA91CCEEC200038FB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E543DCAA1CCEEC200038FB31 /* Build configuration list for PBXNativeTarget "tempTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				E543DCAC1CCEEC200038FB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E543DCAD1CCEEC200038FB31 /* Build configuration list for PBXNativeTarget "tempUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				E543DCAF1CCEEC200038FB31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
